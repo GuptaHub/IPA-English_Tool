@@ -10,7 +10,7 @@ To test out the current version of this tool, clone the github project on your l
 
 ## Current UI
 
-![image-20210715141544383](/Users/sahilgupta/Library/Application Support/typora-user-images/image-20210715141544383.png)
+![image-20210715141544383](https://raw.githubusercontent.com/GuptaHub/IPA-English_Tool/main/Current_UI.png)
 
-![image-20210715141650866](/Users/sahilgupta/Library/Application Support/typora-user-images/image-20210715141650866.png)
+![image-20210715141650866](https://raw.githubusercontent.com/GuptaHub/IPA-English_Tool/main/Info_UI.png)
 
