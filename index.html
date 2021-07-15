@@ -1,23 +1,87 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IPA-English Translation Tool</title>
-    {% load static %}
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-    />
-    <link rel="stylesheet" type="text/css" href="{% frontend "static/css/index.css" %}"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+  <style type="text/css">.Title{
+  text-align: center;
+  font-size: xx-large;
+  color:white;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.InfoLink{
+  text-align: center;
+  color:white;
+  position: absolute;
+  left:47%
+}
+.arrow_pos{
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+.arrow{
+  width: 108px;
+  height: 130px;
+  
+  
+}
+.SearchBar{
+    width: 10%;
+    padding: 100px;
+    padding-left: 25%;
+
+}
+.TransButton{
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 65%;
+  left: 45%;
+  width: 150px;
+  color: white;
+  background-color: blue;
+}
+.textBox{
+  top: 30%;
+  left: 15%;
+  position: absolute;
+  font-size:14pt;
+  
+}
+.outputBox{
+  top: 30%;
+  left: 57.5%;
+  position: absolute;
+  font-size:14pt;
+}
+.EnglishTitle{
+  text-align: center;
+  font-size: medium;
+  color: rgb(9, 189, 54);
+
+}
+
+</style></head>
+  <body data-new-gr-c-s-check-loaded="14.1022.0" data-gr-ext-installed="">
     <div id="main">
-      <div id="app"></div>
+      <div id="app"><h1 class="Title">IPA To English Translator</h1><a href="/ToolInfo" class="InfoLink">What's this?</a><textarea class="textBox" type="text" name="paragraph_text" cols="30" rows="10"></textarea><div class="arrow_pos"><img src="../static/images/arrow_webapp.png" class="arrow"></div><textarea class="outputBox" type="text" cols="30" rows="10"></textarea><button class="TransButton">Translate</button><div class="ocean"><div class="wave"></div><div class="wave"></div></div></div>
     </div>
 
-    <script src="{% frontend "static/frontend/main.js" %}"></script>
-  </body>
-</html>
+    <script src="/static/frontend/main.js"></script>
+  
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
