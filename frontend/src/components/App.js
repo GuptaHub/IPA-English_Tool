@@ -17,7 +17,7 @@ function App(){
         IPA_string: name
       })
     }
-    fetch("/translator/", requestOptions)
+    fetch("../../translator/", requestOptions)
     .then((response) => response.json())
     .then((data) => outputRef.current.value = data);
   }
