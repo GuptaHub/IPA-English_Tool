@@ -10,7 +10,7 @@ To test out the current version of this tool, clone the github project on your l
 
 ## Current UI
 
-![image-20210715170831127](/Users/sahilgupta/Documents/Django_website1/IPA-English_Tool/Current_UI.png)
+![image-20210715170831127](https://raw.githubusercontent.com/GuptaHub/IPA-English_Tool/main/Current_UI.png)
 
 ![image-20210715141650866](https://raw.githubusercontent.com/GuptaHub/IPA-English_Tool/main/Info_UI.png)
 
